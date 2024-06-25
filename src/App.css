@@ -1,0 +1,210 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a202c;
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* this is all new stuff*/
+.bg-custom {
+  background-color: #9CE2D3;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 800px;
+}
+
+.experience-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.experience-subtitle {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.experience-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.experience-logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.experience-details {
+  font-size: 16px;
+}
+
+.experience-details li {
+  margin-bottom: 5px;
+}
+
+.project-card {
+  width: 80%;
+  max-width: 800px;
+  background-color: #F9FAFB;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.project-card img {
+  max-height: 200px;
+  margin-right: 20px;
+}
+
+.project-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.project-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tool-tag {
+  background-color: #E5E7EB;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.project-link img {
+  height: 24px;
+  width: 24px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+nav {
+  background-color: #000000;
+  /* new stuff */
+  min-height: 70px;
+  display: flex;
+  padding: 0 24px;
+  /*  */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  color: #a0aec0;
+}
+
+
+/* Footer */
+footer {
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  
+}
+
+footer .flex {
+  justify-content: center;
+  align-items: center;
+}
+
+footer .flex a img {
+  height: 24px;
+  width: 24px;
+  margin: 0 10px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+
+/* new stuff */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
