@@ -1,6 +1,7 @@
 import home from '/src/img/home.png';
 import React from 'react';
 
+
 function Home() {
     return (
       <section className="h-full w-full flex mx-auto items-center">

@@ -6,7 +6,7 @@ import email from '/src/img/email.svg'
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 p-4 mt-8">
+    <footer className="bg-black p-4 mt-8">
       <div className="flex flex-col items-center space-y-2">
         <div className="flex space-x-4">
           <a href="https://github.com/kat-wei"><img src={githublogo} alt="Github" className="h-6 w-6" /></a>
